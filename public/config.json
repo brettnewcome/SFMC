@@ -8,7 +8,7 @@
     "type": "REST",
     "lang": {
         "en-US": {
-            "name": "Test Activity ",
+            "name": "Custom Activity ",
           "description": "A Template for a custom Journey Builder activity",
           "step1Label": "Configure Activity"
         }
@@ -66,7 +66,7 @@
     "schema": {
            "arguments": {
      "execute": {
-       "inArguments": "inArguments": [
+        "inArguments": [
           {
             "InContactKey": {
               "dataType": "Text",
