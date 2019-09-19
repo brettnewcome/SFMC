@@ -23,13 +23,8 @@
 			],
           
           
-		"url":"https://postb.in/1568858655379-7795821244362",
-           "verb": "POST",
-            "body": " ",
-            "header": "",
-            "format": "json",
-            "useJwt": true,
-            "timeout": 10000
+		"url":"https://postb.in/1568858655379-7795821244362"
+           
         }
     },
     "configurationArguments": {
