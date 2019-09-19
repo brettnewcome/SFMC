@@ -13,18 +13,22 @@
           "step1Label": "Configure Activity"
         }
     },
-    "arguments": {
+     "arguments": {
         "execute": {
-           "inArguments":[
-				{
-                    "email": "{{Contact.Attribute.CustomActivity.email}}","othervar":"{{Contact.Key}}"
-				
-                }									
-			],
-          
-          
-		"url":"https://postb.in/1568858655379-7795821244362"
-           
+            "inArguments": [
+                {
+                    "emailAddress": "{{InteractionDefaults.Email}}"
+                },
+                {
+                    "phoneNumber": "{{Contact.Default.PhoneNumber}}"
+                }
+            ],
+            "outArguments": [
+                {
+                    "foundSignupDate": ""
+                }
+            ],
+            "url": "https://postb.in/1568894298180-9018568077590"
         }
     },
     "configurationArguments": {
