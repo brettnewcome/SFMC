@@ -67,29 +67,10 @@
            "arguments": {
      "execute": {
         "inArguments": [
-          {
-            "InContactKey": {
-              "dataType": "Text",
-              "isNullable": false,
-              "direction": "in"
-            }
-          }
+          
         ],
         "outArguments": [
-          {
-            "JobListId": {
-              "dataType": "Text",
-              "isNullable": false,
-              "direction": "Out",
-              "access": "Visible"
-            },
-            "JobDefintionListId": {
-              "dataType": "Text",
-              "isNullable": false,
-              "direction": "Out",
-              "access": "Visible"
-            }
-          }
+          
         ]
             }
         }
