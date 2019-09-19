@@ -31,7 +31,7 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "Custom Activity",
+      "applicationExtensionKey": "341129b5-665d-4cbf-b74c-4df92385b94d",
       "save": {
         "url": "https://atomicconnector.herokuapp.com/journeybuilder/save",
           "verb": "POST",
