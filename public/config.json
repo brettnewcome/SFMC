@@ -22,7 +22,7 @@
                 }									
 			],
           
-          //"url": "https://atomicconnector.herokuapp.com/journeybuilder/execute",
+          
 		"url":"https://postb.in/1568858655379-7795821244362",
            "verb": "POST",
             "body": " ",
