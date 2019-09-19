@@ -66,18 +66,31 @@
     "schema": {
            "arguments": {
      "execute": {
-       "inArguments": [
-         {
-           "key": {
-             "dataType": "Text",
-             "isNullable": false,
-             "direction": "In"
-           }
-         }
-       ]
-     ,
-   
-                "outArguments": []
+       "inArguments": "inArguments": [
+          {
+            "InContactKey": {
+              "dataType": "Text",
+              "isNullable": false,
+              "direction": "in"
+            }
+          }
+        ],
+        "outArguments": [
+          {
+            "JobListId": {
+              "dataType": "Text",
+              "isNullable": false,
+              "direction": "Out",
+              "access": "Visible"
+            },
+            "JobDefintionListId": {
+              "dataType": "Text",
+              "isNullable": false,
+              "direction": "Out",
+              "access": "Visible"
+            }
+          }
+        ]
             }
         }
     }
