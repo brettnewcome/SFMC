@@ -24,7 +24,7 @@
           "outArguments": [{"email": "{{Contact.Attribute.CustomActivity.email}}","othervar":"{{Contact.Key}}"}],
           "url": "https://atomicconnector.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
-            "body": "",
+            "body": "Blah",
             "header": "",
             "format": "json",
             "useJwt": true,
