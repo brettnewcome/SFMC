@@ -64,9 +64,19 @@
         }
     },
     "schema": {
-        "arguments": {
-            "execute": {
-                "inArguments": [],
+           "arguments": {
+     "execute": {
+       "inArguments": [
+         {
+           "key": {
+             "dataType": "Text",
+             "isNullable": false,
+             "direction": "In"
+           }
+         }
+       ]
+     ,
+   
                 "outArguments": []
             }
         }
